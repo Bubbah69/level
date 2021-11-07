@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Mi#Dg5j8?R9M7=pb6|9|">x</variable><variable id="`z^o#0^}v1`k0mXLGBbJ">y</variable></variables><block type="pxt-on-start" id="?i^avt^S6RVz/W?IAWxJ" x="0" y="0"/><block type="device_forever" id="O5ZAT]ZkIO9Tz@J4sd0f" x="228" y="7"><statement name="HANDLER"><block type="variables_set" id="m~KzB[hdc~aiKMU7?jOO"><field name="VAR" id="Mi#Dg5j8?R9M7=pb6|9|">x</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_acceleration" id="YPU?gcllY/t06fpAroJA"><field name="NAME">Dimension.X</field></block></value><next><block type="variables_set" id="wY*PWzY^G|ra/Z*zDg-."><field name="VAR" id="`z^o#0^}v1`k0mXLGBbJ">y</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_acceleration" id="(7s8(4]`dF)#VgRdgiC!"><field name="NAME">Dimension.Y</field></block></value><next><block type="controls_if" id="Lnjz(Yb9pMFBa?9WZcoq"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="j9]m`%j({tC5a/=sv8D3"><field name="OP">GT</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="math_op3" id="asRum%1)hs_LIiTg@c!j"><value name="x"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="variables_get" id="@05#ZKHH5^oRB[2R/?6S"><field name="VAR" id="Mi#Dg5j8?R9M7=pb6|9|">x</field></block></value></block></value><value name="B"><shadow type="math_number" id="unF{U7f,1hWj}`li{5CM"><field name="NUM">50</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="]TkBA;PAgRlD^/$Sm/EE"><field name="LEDS">`
+        . . # . . 
+        . . . # . 
+        . . . . # 
+        . . . # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id=":[~3re=OQ0@`Y+JGWl1("><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # . . . . 
+        . # . . . 
+        . . # . .
+        `</field></block></statement></block></next></block></next></block></statement></block></xml>
